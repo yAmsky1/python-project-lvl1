@@ -11,6 +11,7 @@ jobs:
           python-version: 3.8
       - name: install deps
         run: |
+          pip install poetry
           poetry install
       - name: run linter
         run: poetry run flake8 brain_games
