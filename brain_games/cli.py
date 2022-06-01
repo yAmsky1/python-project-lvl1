@@ -7,6 +7,7 @@ def welcome_user():
     print(f"Hello, {user_name}!")
     return user_name
 
+
 def get_answer(question):
     print(f"Question: {question}")
     user_answer = prompt.string('Your answer: ')
