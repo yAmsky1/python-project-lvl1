@@ -8,3 +8,6 @@
 
 Калькулятор (Brain - calc)
 [![asciicast](https://asciinema.org/a/XFwXISNehn053tFIxaEK7rM7y.svg)](https://asciinema.org/a/XFwXISNehn053tFIxaEK7rM7y)
+
+Наибольший общий делитель (Brain - gcd)
+[![asciicast](https://asciinema.org/a/tvknrhCMo4QLSiDbsBthCvD7L.svg)](https://asciinema.org/a/tvknrhCMo4QLSiDbsBthCvD7L)
