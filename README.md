@@ -11,3 +11,6 @@
 
 Наибольший общий делитель (Brain - gcd)
 [![asciicast](https://asciinema.org/a/tvknrhCMo4QLSiDbsBthCvD7L.svg)](https://asciinema.org/a/tvknrhCMo4QLSiDbsBthCvD7L)
+
+Арифмитическая прогрессия (Brain - progression)
+[![asciicast](https://asciinema.org/a/OtaSWzUDwsoYStcpsxRCN7oG2.svg)](https://asciinema.org/a/OtaSWzUDwsoYStcpsxRCN7oG2)
