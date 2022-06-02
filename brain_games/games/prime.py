@@ -11,8 +11,8 @@ def prime_game():
 
 
 def is_prime(number):
-    if number == 1:
-        return True
+    if number == 0:
+        return False
     for den in range(2, number):
         if number % den == 0:
             return False
