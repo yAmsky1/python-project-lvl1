@@ -1,11 +1,14 @@
 from random import randint
 
 
-def gcd():
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+
+
+def gcd_game():
     a, b = randint(0, 10), randint(0, 10)
     question = f"{a} {b}"
-    answer = get_gcd(a, b)
-    return question, str(answer)
+    answer = str(get_gcd(a, b))
+    return question, answer
 
 
 def get_gcd(a, b):

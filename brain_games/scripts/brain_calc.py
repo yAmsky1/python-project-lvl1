@@ -2,13 +2,11 @@
 
 
 from brain_games.games import calc
-from brain_games import cli, game_engine
+from brain_games import game_engine
 
 
 def brain_calc():
-    user_name = cli.welcome_user()
-    print('What is the result of the expression?')
-    game_engine.game_engine(calc.calc, user_name)
+    game_engine.engine(calc.DESCRIPTION, calc.calc_game)
 
 
 def main():

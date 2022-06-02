@@ -1,8 +1,11 @@
 from random import randint, choice
 
 
-def progression():
-    a0, d = randint(0, 10), randint(1, 10)  # a0 - first element, d - diff
+DESCRIPTION = 'What number is missing in the progression?'
+
+
+def progression_game():
+    a0, d = randint(0, 10), randint(1, 10)
     prog = [str(a0 + d * i) for i in range(randint(5, 16))]
     answer = choice(prog)
     question = ' '.join(prog).replace(answer, '..', 1)

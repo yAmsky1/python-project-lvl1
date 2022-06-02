@@ -4,7 +4,9 @@ from brain_games import cli
 ROUNDS = 3
 
 
-def game_engine(game_name, user_name):
+def engine(description, game_name):
+    user_name = cli.welcome_user()
+    print(description)
     for i in range(1, ROUNDS + 1):
         question, answer = game_name()
         user_answer = cli.get_answer(question)
