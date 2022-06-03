@@ -6,7 +6,7 @@ from brain_games import game_engine
 
 
 def brain_progression():
-    game_engine.engine(progression.DESCRIPTION, progression.progression_game)
+    game_engine.engine(progression)
 
 
 def main():

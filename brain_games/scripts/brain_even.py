@@ -6,7 +6,7 @@ from brain_games import game_engine
 
 
 def brain_even():
-    game_engine.engine(even.DESCRIPTION, even.even_game)
+    game_engine.engine(even)
 
 
 def main():

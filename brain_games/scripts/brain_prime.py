@@ -6,7 +6,7 @@ from brain_games import game_engine
 
 
 def brain_prime():
-    game_engine.engine(prime.DESCRIPTION, prime.prime_game)
+    game_engine.engine(prime)
 
 
 def main():

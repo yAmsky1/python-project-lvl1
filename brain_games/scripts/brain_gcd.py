@@ -6,7 +6,7 @@ from brain_games import game_engine
 
 
 def brain_gcd():
-    game_engine.engine(gcd.DESCRIPTION, gcd.gcd_game)
+    game_engine.engine(gcd)
 
 
 def main():
