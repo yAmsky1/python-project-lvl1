@@ -23,7 +23,7 @@ def generate_round():
 def is_prime(number):
     if number == 0 or number == 1:
         return False
-    for den in range(2, number):
+    for den in range(2, (number // 2) + 1):
         if number % den == 0:
             return False
     return True
