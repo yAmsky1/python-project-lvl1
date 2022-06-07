@@ -1,15 +1,16 @@
 import prompt
 
 
-ROUNDS = 3
+ROUNDS_COUNT = 3
 
 
 def engine(game):
     user_name = welcome_user()
     print(game.DESCRIPTION)
-    for i in range(ROUNDS):
+    for i in range(ROUNDS_COUNT):
         question, answer = game.generate_round()
-        user_answer = get_answer(question)
+        print(f"Question: {question}")
+        user_answer = prompt.string('Your answer: ')
         if user_answer != answer:
             print(f"Answer '{user_answer}' is wrong answer ;(.", end=' ')
             print(f"Correct answer was '{answer}'.")
@@ -25,9 +26,3 @@ def welcome_user():
     user_name = prompt.string('May I have your name? ')
     print(f"Hello, {user_name}!")
     return user_name
-
-
-def get_answer(question):
-    print(f"Question: {question}")
-    user_answer = prompt.string('Your answer: ')
-    return user_answer
